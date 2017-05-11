@@ -47,3 +47,5 @@ EXPOSE 8080
 
 CMD /opt/apache-tomcat-8.5.15/bin/catalina.sh run
 
+# We can save the following file on root directory and excute the below command to execute the Docker file.
+# docker run -p 7080:8080 -dit testdocker
